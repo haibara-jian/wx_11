@@ -21,6 +21,8 @@ spring:
       
    mvc:
    static-path-pattern: /static//**
+   resources location="/js/" mapping="/js/**"/
+   resources location="/css/" mapping="/css/**"/
 
 server.port: 51001
 
