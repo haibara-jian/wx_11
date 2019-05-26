@@ -21,11 +21,7 @@ spring:
       
    mvc:
    static-path-pattern: /static//**
-<mvc:resources location="/ldj_self_menu/css/" mapping="/css/**"/>
-<mvc:resources location="/ldj_self_menu/js/" mapping="/js/**"/>
-<mvc:resources location="/ldj_self_menu/image/" mapping="/image/**"/>
-<mvc:default-servlet-handler/>
-<mvc:annotation-driven />
+
 server.port: 51001
 
 
