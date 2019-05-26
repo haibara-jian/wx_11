@@ -1,5 +1,7 @@
 package org.fkjava.weixin.menu.controller;
 
+import javax.servlet.http.HttpServletResponse;
+
 import org.fkjava.weixin.menu.domain.SelfMenu;
 import org.fkjava.weixin.menu.service.SelfMenuService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -24,7 +26,11 @@ public class MenuController {
 		// 由于使用了JSP文件，所以必须要加入JSP的解析器（修改pom.xml），否则JSP文件找不到！
 		return new ModelAndView("/WEB-INF/views/self-menu/index.jsp");
 	}
-
+	
+	
+	
+	    
+	
 	// 此时方法就会返回JSON数据
 	@GetMapping(produces = "application/json")
 	@ResponseBody
@@ -38,5 +44,12 @@ public class MenuController {
 	public String save(@RequestBody SelfMenu menu) {
 		this.selfMenuService.save(menu);
 		return "保存成功";
+	}
+	@RequestMapping("/css/menu.css") 
+	public void style(HttpServletResponse response) throws Exception{
+	    response.setCharacterEncoding("utf-8");
+	    response.setContentType("text/css");
+	    char[] cssString = null;
+		response.getWriter().print(cssString);
 	}
 }
