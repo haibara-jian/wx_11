@@ -18,7 +18,7 @@ public class MenuController {
 	@Autowired
 	private SelfMenuService selfMenuService;
 
-	@PostMapping
+	@GetMapping
 	public ModelAndView index() {
 		// 默认只会在/META-INF/resources/目录下去找JSP文件。
 		// 由于使用了JSP文件，所以必须要加入JSP的解析器（修改pom.xml），否则JSP文件找不到！
