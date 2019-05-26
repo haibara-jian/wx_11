@@ -26,7 +26,7 @@ public class MenuController {
 	}
 
 	// 此时方法就会返回JSON数据
-	@PostMapping(produces = "application/json")
+	@GetMapping(produces = "application/json")
 	@ResponseBody
 	public SelfMenu data() {
 		return selfMenuService.findMenus();
