@@ -139,6 +139,6 @@
 <script type="text/javascript" src="/ldj_self_menu/js/jquery.js"></script>
 <script type="text/javascript" src="/ldj_self_menu/js/vue.js"></script>
 <script type="text/javascript" src="/ldj_self_menu/js/menu.js"></script>
-
+ 
 </body>
 </html>
