@@ -13,7 +13,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 <head>
 <meta charset="UTF-8">
 <title>菜单管理</title>
-<link rel="stylesheet" src="<%=path %>/css/menu.css"/>
+<link rel="stylesheet" src="<%=path %>/ldj_self_menu/css/menu.css"/>
 </head>
 <body>
 <div class="main-container">
