@@ -147,6 +147,5 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 <script type="text/javascript" src="/js/jquery.js"></script>
 <script type="text/javascript" src="/js/vue.js"></script>
 <script type="text/javascript" src="/js/menu.js"></script> 
- 
 </body>
 </html>
