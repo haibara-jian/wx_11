@@ -1,7 +1,5 @@
 package org.fkjava.weixin.menu.controller;
 
-import javax.servlet.http.HttpServletResponse;
-
 import org.fkjava.weixin.menu.domain.SelfMenu;
 import org.fkjava.weixin.menu.service.SelfMenuService;
 import org.springframework.beans.factory.annotation.Autowired;
