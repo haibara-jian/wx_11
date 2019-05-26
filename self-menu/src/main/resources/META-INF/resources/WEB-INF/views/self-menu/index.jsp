@@ -5,7 +5,7 @@
 <head>
 <meta charset="UTF-8">
 <title>菜单管理</title>
-<link rel="stylesheet" href="/css/menu.css"/>
+<link rel="stylesheet" href="/ldj_self_menu/ldj_self_menu/css/menu.css"/>
 </head>
 <body>
 <div class="main-container">
@@ -136,9 +136,9 @@
 	<button onclick="saveMenus()">保存</button>
 </div>
 
-<script type="text/javascript" src="/js/jquery.js"></script>
-<script type="text/javascript" src="/js/vue.js"></script>
-<script type="text/javascript" src="/js/menu.js"></script>
+<script type="text/javascript" src="/ldj_self_menu/ldj_self_menu/js/jquery.js"></script>
+<script type="text/javascript" src="/ldj_self_menu/ldj_self_menu/js/vue.js"></script>
+<script type="text/javascript" src="/ldj_self_menu/ldj_self_menu/js/menu.js"></script>
  
 </body>
 </html>
