@@ -1,13 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
-    <%
-
-String path = request.getContextPath();
-
-String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.getServerPort()+path+"/";
-
-%>
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -146,6 +138,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 
 <script type="text/javascript" src="/ldj_self_menu/js/jquery.js"></script>
 <script type="text/javascript" src="/ldj_self_menu/js/vue.js"></script>
-<script type="text/javascript" src="/ldj_self_menu/js/menu.js"></script> 
+<script type="text/javascript" src="/ldj_self_menu/js/menu.js"></script>
+
 </body>
 </html>
