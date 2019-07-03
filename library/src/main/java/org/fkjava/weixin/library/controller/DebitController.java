@@ -69,6 +69,6 @@ public class DebitController {
 	@RequestMapping("remove/{id}")
 	public String remove(@PathVariable("id") String id, @SessionAttribute(name = "debitList") DebitList list) {
 		libraryService.remove(list, id);
-		return "redirect:/kemao_3/library/debit/list";
+		return "redirect:/ldj/library/debit/list";
 	}
 }
